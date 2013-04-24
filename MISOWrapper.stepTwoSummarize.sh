@@ -8,7 +8,7 @@ fi
 MISOSettingFile=$1
 mode=$2
 
-source ${MISOSettingFile}
+
 
 if [ ! -e $MISOSettingFile ]; then
 	MISOSettingFile=$MISOSETTINGPATH/$MISOSettingFile
